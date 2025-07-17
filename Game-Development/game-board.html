@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Tebak Angka</title>
+</head>
+<body>
+    <header>
+        <h1>🎮
+GAME TEBAK ANGKA🎮
+</h1>
+    </header>
+    
+    <main>
+        <section id="game-board">
+            <!--Area perminan-->
+            <p>Tebak angka antara <strong>1 - 100</strong>!</p>
+            <label for="guessfield" placeholder="Mas"><br><br>
+            <input type="number" id="guessinput" placeholder="mas">
+            <br>
+            <button onclick="submitGuess()">submit tebakan</button>
+
+         </section>
+
+        <aside id="score-panel">
+            <!--Skor & statistik-->
+            <!-- area hasil -->
+             <section> 
+                <p id="previouGuess">Tebakan sebelumnya: -</p>
+                <p id="attempts">Jumlah percobaan:0</p>
+             </section>
+
+        </aside>
+    </main>
+    <!-- footer -->
+    <footer>
+        <p>©2025 - Game Developer Class</p>
+    </footer>
+</body>
+</html>
