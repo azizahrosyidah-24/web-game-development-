@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(234, 157, 183) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: rgb(255, 222, 247);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: rgb(103, 66, 91);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 195, 243);
+    border: none;
+}
+#masukan{
+    background-color: rgb(244, 165, 234) ;
+    margin-right: 20px;
+}
+#mainlagi{
+    background-color: rgb(255, 165, 209);
+}
+input{
+    width: 80%;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+}
+.highScore{
+    margin-top: 30px;
+    padding: 20px ;
+    background-color: white ;
+    border-radius: 15px;
+}

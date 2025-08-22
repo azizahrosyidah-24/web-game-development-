@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Tebak Angka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>&#X1F3AEGame Tebak Angka&#X1F3AE</h1>
+            <from onsubmit="return tebakAngka()"></from>
+             <p>Tebak angka antara<strong> 1 - 100</strong>!</p>
+             <input type="number" id="tebakInput" placeholder="Masukan tebakan">
+             <br>
+             <button id="masukkan">Submit Tebakan</button>
+             <button id="mainLagi">Main lagi</button>
+        
+             <p>Tebakan sebelumnya: -</p>
+             <p>Jumlah percobaan: 0</p>
+             <br>
+             <h2>High Score</h2><br>
+             <div style="width: 390px; height: 150px; background-color: white; border: 5px solid rgb(248, 213, 219);">
+                <br><br>_
+            </div>
+            <br>
+        <p>&#169; 2025 Game Developer Class</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
