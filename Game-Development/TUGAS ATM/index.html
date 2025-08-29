@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM KITA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="atm-container">
+        <h2 style="background-color:pink; border-radius: 5px; color: white; box-shadow: 0 0 15px rbga(0, 0,0.5);">selamat datng di ATM kita</h2>
+
+        <label>silahkan pilih menu</label>
+        <select id="menu">
+            <option value="cek">cek saldo</option>
+            <option value="tarik">tarik tunai</option>
+            <option value="setor">setor tunai</option>
+        </select>
+
+        <label>jumlah (Rp):</label>
+        <input type="number" id="jumlah" placeholder="isi jika tarik atau setor">
+
+        <button onclick="prosesATM()" style="background-color: rgb(236, 138, 184); border-radius: 5px; color: white; box-shadow: 0 0 15px rbga(0, 0, 0.5);">SUBMIT</button>
+
+        <h3 id="hasil"></h3>
+    </div>
+
+    <script src="praktek_atm.js"></script>
+</body>
+</html>
